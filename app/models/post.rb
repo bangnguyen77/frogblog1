@@ -1,4 +1,5 @@
 class Post < ApplicationRecord
+
   extend FriendlyId
   friendly_id :title, use: :slugged
 
@@ -6,5 +7,9 @@ class Post < ApplicationRecord
 
   def should_generate_new_friendly_id?
     title_changed?
+  end
+
+  def display_day_publised
+    "Published #{created_at.strftime('%-b %-d, %Y')}"
   end
 end
