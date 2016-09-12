@@ -1,24 +1,16 @@
-# README
+# Blog Practice
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This app allows users to sign up, sign in and create, edit, and edit posts.
 
-Things you may want to cover:
-
-* Ruby version
+### Installation
+In the terminal, run the following commands:
+* Repo clone to your local computer
+- git clone https://github.com/bangnguyen77/frogblog1
 
 * System dependencies
-
-* Configuration
+- bundle install
 
 * Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+- postgres
+- rails db:create
+- rails db:migrate
