@@ -14,7 +14,7 @@ git clone https://github.com/bangnguyen77/frogblog1
 bundle install
 ```
 
-* Database creation - Create to_do_test and to_do_development databases
+* Database creation - Create test and development databases
 ```
 $ rails db:create
 ```
